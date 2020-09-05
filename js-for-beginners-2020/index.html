@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academind - Just add sh*t up</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- PERFORMANCE! Academind laadt hier al script in, maar laat ze op het eind uitvoeren nadat HTML is 'ge-parse-d', dat gebeurd met DEFER ! -->
+    <script src="sandbox.js" defer></script>
+</head>
+
+<body>
+
+    <h1>Just add sh*t up</h1>
+
+    <section>
+
+        <div>
+            <h2 id="current-calculation">0</h2>
+            <h2>+</h2>
+        </div>
+
+    </section>
+
+    <section>
+
+        <div class="input-field">
+            <input type="number" id="input-number1" min="0" max="9">
+            <!-- <input type="number" id="input-number2" min="0"> -->
+        </div>
+
+        <div class="button">
+            <button type="button" id="btn-add">ADD</button>
+        </div>
+
+    </section>
+
+</body>
+
+</html>
